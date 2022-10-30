@@ -87,6 +87,7 @@ class Game extends React.Component {
     })
   }
 
+  // renderに表示するものをかき、この時全てstateの値を使っていく。その他のmethodは、stateを変更することに集中する。
   render() {
     const history = this.state.history
     const current = history[this.state.stepNumber];
